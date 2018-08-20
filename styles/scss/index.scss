@@ -1,0 +1,10 @@
+//needed by custom bootstrap vars defaults
+@import "../../node_modules/bootstrap/scss/_functions";
+
+//custom bootstrap vars
+@import 'custom';
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+body {
+  background-color: $primary;
+}
